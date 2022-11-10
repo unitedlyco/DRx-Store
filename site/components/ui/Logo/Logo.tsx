@@ -1,21 +1,5 @@
 const Logo = ({ className = '', ...props }) => (
-  <svg
-    width="32"
-    height="32"
-    viewBox="0 0 32 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    {...props}
-  >
-    <rect width="100%" height="100%" rx="16" fill="var(--secondary)" />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-      fill="var(--primary)"
-    />
-  </svg>
+ <div class="Header__img__ebT0 __wab_img-wrapper" style="height:auto"><img alt="" aria-hidden="true" class="__wab_img-spacer-svg" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTE4OSIgaGVpZ2h0PSIyODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+" style="width:100%;height:auto;min-height:100%"><picture class="__wab_picture"><source type="image/webp" srcset="https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?w=640&amp;q=75&amp;f=webp 640w, https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?w=750&amp;q=75&amp;f=webp 750w, https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?w=828&amp;q=75&amp;f=webp 828w, https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?q=75&amp;f=webp 1080w"><img alt="" loading="lazy" class="__wab_img" decoding="async" src="https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?q=75" srcset="https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?w=640&amp;q=75 640w, https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?w=750&amp;q=75 750w, https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?w=828&amp;q=75 828w, https://img.plasmic.app/img-optimizer/v1/img/21365fb399093e186991c8d1e36ef0c6.png?q=75 1080w" sizes="100vw" style="width:0;height:0"></picture></div>
 )
 
 export default Logo
