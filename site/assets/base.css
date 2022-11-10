@@ -119,3 +119,11 @@ a {
     opacity: 1;
   }
 }
+
+.keen-slider:not([data-keen-slider-disabled]) .keen-slider__slide {
+    background-color: #e7e5e3;
+}
+
+.ProductView_sliderContainer__6XH62 {
+    background-color: #e7e5e3;
+}
